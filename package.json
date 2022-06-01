@@ -1,9 +1,14 @@
 {
 	"name": "fcc-learn-npm-package-json",
 	"author": "Kg",
+	"description": "A project that does something awesome",
+	"version": "^1.2.0",
 	"dependencies": {
+		"package-name": "version",
 		"express": "^4.14.0"
 	},
+	"keywords": ["learn", "node","basic"],
+	"license": "MIT",
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
